@@ -7,14 +7,14 @@ function Player({info}) {
     <Card style={{ width: '18rem' }} className='card'>
       <Card.Img variant="top" src={info.img} className='img'/>
       <Card.Body>
-        <Card.Title className='name'>{info.name}</Card.Title>
+        <Card.Title className='name'>{info.name}</Card.Title> 
         <Card.Text className='nationality'>
           {info.nationality}
         </Card.Text>
+        <Button variant="primary" className='pop'>{info.age}</Button>
         <Card.Text className='team'>
           {info.team}
         </Card.Text>
-        <Button variant="primary" className='pop'>{info.age}</Button>
       </Card.Body>
     </Card>
   );

@@ -1,3 +1,4 @@
 #root {
-   background-color: black;
+   background-image: url(/téléchargement.jpg);
+   background-size: cover;
 }

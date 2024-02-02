@@ -27,7 +27,7 @@
 
 .pop{
     position: relative;
-    bottom: 10px;
+    bottom: 4px;
     left: 3px;
 }
 
@@ -41,12 +41,12 @@
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: black;
+    background-color: rgb(36, 102, 0);
     background-image: url(\téléchargement.png);
     background-size: cover;
     cursor: pointer;
 }
 
 .card:hover {
-    box-shadow: 0 5px 10px 0 #0059ff;
+    box-shadow: 0 5px 10px 0 #2e3033;
 }

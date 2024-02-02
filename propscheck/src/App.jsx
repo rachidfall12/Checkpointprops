@@ -9,9 +9,9 @@ function App() {
   
   <div className="App">
     {['primary',].map((variant) => (
-      <Alert style={{borderRadius: '30px' , color: 'black' , backgroundColor: '#0059ff'}}
+      <Alert style={{borderRadius: '30px' , color: 'black' , backgroundColor: 'green' , border: '0px' }}
        key={variant} variant={variant}>
-        Liste de mes joueurs préférés
+        Voici les packs disponibles cette semaine!
       </Alert>
     ))}
       <PlayerList></PlayerList>
